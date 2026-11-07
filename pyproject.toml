@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vda-unique-id"
+version = "2025.1.0"
+authors = [
+  { name = "Akash Tanna", email = "Poweredbyakash@gmail.com" },
+  { name = "Powered By Akash", email = "support@poweredbyakash.in" },
+]
+description = "Virtual Development Assistant (VDA) - High-Integrity Unique Identifier, Security Token, PIN & Key Generation Engine"
+readme = "README.md"
+requires-python = ">=3.7"
+license = { text = "MIT" }
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Topic :: Security",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+keywords = ["unique-id", "security", "tokens", "pin", "keys", "vda", "pba"]
+
+[project.urls]
+"Homepage" = "https://github.com/Powered-By-Akash/VDA-Unique_ID"
+"Website" = "https://www.poweredbyakash.in/"
+"Organization" = "https://github.com/Powered-By-Akash"
+"Bug Tracker" = "https://github.com/Powered-By-Akash/VDA-Unique_ID/issues"
